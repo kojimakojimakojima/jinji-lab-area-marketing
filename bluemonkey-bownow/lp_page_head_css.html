@@ -265,4 +265,14 @@
 .hrlp .bn-form-shell iframe{max-width:100%;}
 @media(max-width:640px){.hrlp .bn-form-outer{padding-bottom:72px}.hrlp .bn-contact-wrap .request-examples{margin-left:0;margin-right:0}.hrlp .bn-form-shell{padding:22px 16px}}
 
+
+/* 会社・メディア紹介：以前の原稿を再利用 */
+.hrlp .about-profiles{background:#fff;border-top:1px solid var(--line)}
+.hrlp .about-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.hrlp .about-profile{padding:clamp(30px,3.1vw,46px);min-width:0}
+.hrlp .about-profile+.about-profile{border-left:1px solid var(--line);background:#fbfcfe}
+.hrlp .about-profile h2{font-size:clamp(24px,2.15vw,30px);line-height:1.58;letter-spacing:-.035em;margin:0 0 20px;text-wrap:balance}
+.hrlp .about-profile .about-body{font-size:15px;line-height:2;color:var(--body);margin:0}
+.hrlp .about-profile .about-note{font-size:13px;line-height:1.9;color:var(--muted);margin:18px 0 0}
+@media(max-width:760px){.hrlp .about-grid{grid-template-columns:1fr}.hrlp .about-profile{padding:28px 24px}.hrlp .about-profile+.about-profile{border-left:0;border-top:1px solid var(--line)}}
 </style>
