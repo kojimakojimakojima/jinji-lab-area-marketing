@@ -273,15 +273,33 @@
 .hrlp .bn-form-shell iframe{max-width:100%;}
 @media(max-width:640px){.hrlp .bn-form-outer{padding-bottom:72px}.hrlp .bn-contact-wrap .request-examples{margin-left:0;margin-right:0}.hrlp .bn-form-shell{padding:22px 16px}}
 
-/* 会社・メディア紹介：以前の原稿を再利用 */
+/* 運営会社・支援体制 */
 .hrlp .about-profiles{background:#fff;border-top:1px solid var(--line)}
-.hrlp .about-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border:1px solid var(--line);border-radius:12px;overflow:hidden}
-.hrlp .about-profile{padding:clamp(30px,3.1vw,46px);min-width:0}
-.hrlp .about-profile+.about-profile{border-left:1px solid var(--line);background:#fbfcfe}
-.hrlp .about-profile h2{font-size:clamp(24px,2.15vw,30px);line-height:1.58;letter-spacing:-.035em;margin:0 0 20px;text-wrap:balance}
-.hrlp .about-profile .about-body{font-size:15px;line-height:2;color:var(--body);margin:0}
-.hrlp .about-profile .about-note{font-size:13px;line-height:1.9;color:var(--muted);margin:18px 0 0}
-@media(max-width:760px){.hrlp .about-grid{grid-template-columns:1fr}.hrlp .about-profile{padding:28px 24px}.hrlp .about-profile+.about-profile{border-left:0;border-top:1px solid var(--line)}}
+.hrlp .about-company-header{max-width:840px;margin-bottom:40px}
+.hrlp .about-company-header h2{font-size:clamp(27px,2.6vw,37px);letter-spacing:-.04em}
+.hrlp .about-company-intro{font-size:16px;line-height:2;color:var(--body);margin:17px 0 0}
+.hrlp .about-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:3px solid var(--yellow);border-bottom:1px solid var(--line)}
+.hrlp .about-fact{padding:29px 26px 33px;min-width:0}
+.hrlp .about-fact:first-child{padding-left:0}
+.hrlp .about-fact+.about-fact{border-left:1px solid var(--line)}
+.hrlp .about-fact-value{font-size:clamp(31px,3.1vw,45px);line-height:1.28;letter-spacing:-.055em;font-weight:850;color:var(--navy);margin:0 0 10px}
+.hrlp .about-fact-value span{font-size:.43em;letter-spacing:-.02em;margin-left:5px}
+.hrlp .about-fact-value.about-fact-indeed{letter-spacing:-.065em}
+.hrlp .about-fact-label{font-size:14px;line-height:1.7;font-weight:700;color:var(--body);margin:0}
+.hrlp .about-services{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px;margin-top:37px}
+.hrlp .about-service{min-width:0}
+.hrlp .about-service h3{font-size:18px;color:var(--navy);margin:0 0 9px;font-weight:850;line-height:1.5}
+.hrlp .about-service p{font-size:14px;line-height:1.9;color:var(--body);margin:0}
+@media(max-width:760px){
+.hrlp .about-company-header{margin-bottom:27px}
+.hrlp .about-company-intro{font-size:14px}
+.hrlp .about-facts{grid-template-columns:1fr}
+.hrlp .about-fact,.hrlp .about-fact:first-child{padding:20px 0}
+.hrlp .about-fact+.about-fact{border-left:0;border-top:1px solid var(--line)}
+.hrlp .about-fact-value{font-size:33px;margin-bottom:5px}
+.hrlp .about-services{grid-template-columns:1fr;gap:24px;margin-top:28px}
+.hrlp .about-service h3{font-size:17px}
+}
 </style>
 </head><body><div class="hrlp">
 <header><div class="container head"><a aria-label="人事ラボ トップ" class="brand" href="#top">人事ラボ<i aria-hidden="true"></i></a><div class="brand-note">飛竜企画の<br/>採用支援サービス</div><nav aria-label="ページ内メニュー" class="nav"><a href="#challenges">課題</a><a href="#approach">考え方</a><a href="#service">支援内容</a><a href="#price">料金</a><a href="#faq">よくある質問</a><a class="btn" href="#contact">無料で相談する <span aria-hidden="true" class="arrow">→</span></a></nav></div></header>
@@ -315,9 +333,17 @@
 <tr><td class="name">交通広告</td><td class="description">鉄道・バス車体・車内広告、駅看板など。<span class="conditions">※企画費・制作費・営業管理費は別途です。</span></td><td class="price-value"><small>個別お見積もり</small></td></tr>
 </tbody></table></div><div class="price-notes"><strong>料金について：</strong>表示価格はすべて税抜です。表記の金額は最低価格の目安であり、対象地域・実施条件・制作範囲により変動します。月額・契約単位などの課金周期と追加費用は、お見積もり時にご案内します。</div></div></section>
 <section class="block start" id="flow"><div class="container"><div class="headline-gap"><p class="tag">ご相談の流れ</p><h2>きめ細やかな現状・課題確認からスタート。</h2></div><div class="start-grid"><article class="start-item"><div class="n">STEP 01 / 無料相談</div><h3>状況を伺います。</h3><p>対象となる拠点や職種、応募状況、採用目標を確認します。</p></article><article class="start-item"><div class="n">STEP 02 / ご提案・お見積もり</div><h3>支援内容を整理します。</h3><p>必要な調査と施策を確認し、実施範囲と費用をご案内します。</p></article><article class="start-item"><div class="n">STEP 03 / 実行・振り返り</div><h3>結果を確認します。</h3><p>ご合意いただいた内容で施策を実行し、応募状況を見直します。</p></article></div></div></section>
-<section class="block" id="faq"><div class="container"><div class="headline-gap"><h2>よくあるご質問</h2></div><div class="faq-list"><details><summary>1店舗だけでも相談できますか？</summary><p>はい。採用に課題がある1店舗・1工場からご相談いただけます。対象エリアと採用したい職種を確認します。</p></details><details><summary>求人媒体を変更しなければなりませんか？</summary><p>必ずしも変更する必要はありません。現在の募集方法を確認し、内容の改善や施策の追加を検討します。</p></details><details><summary>Web広告とチラシの両方が必要ですか？</summary><p>すべてを実施する必要はありません。採用したい人、地域、予算などに合わせて必要な手法を選びます。</p></details><details><summary>制作や運用だけを依頼できますか？</summary><p>はい。単独メニューでのご相談にも対応します。実施内容や費用は個別にご提案します。</p></details><details><summary>見積もりの前に何を準備すればよいですか？</summary><p>対象拠点、募集職種、現在の求人原稿、応募状況などがあると検討が進みます。揃っていない段階でもご相談いただけます。</p></details></div></div></section><section class="block about-profiles" id="about"><div class="container"><div class="about-grid">
-<article class="about-profile"><p class="tag">人事ラボとは</p><h2>自社を主語に、<br/>採用を考える。</h2><p class="about-body">人事ラボは、データや求職者の声、さまざまな問いを手がかりに、自社の採用を捉え、納得できる答えを見つけるためのメディアです。</p></article>
-<article class="about-profile"><p class="tag">飛竜企画とは</p><h2>採用の現場に向き合う人の、<br/>意思ある選択と実行を支える。</h2><p class="about-body">飛竜企画は、お客さま自身もまだ言葉にできていない採用の実態を深く理解し、お客さまが納得して次の一手を決められるようにする会社です。</p><p class="about-note">1974年設立。求人広告、採用企画、制作、採用業務のアウトソーシングなど、採用活動の実行も支援しています。</p></article>
+<section class="block" id="faq"><div class="container"><div class="headline-gap"><h2>よくあるご質問</h2></div><div class="faq-list"><details><summary>1店舗だけでも相談できますか？</summary><p>はい。採用に課題がある1店舗・1工場からご相談いただけます。対象エリアと採用したい職種を確認します。</p></details><details><summary>求人媒体を変更しなければなりませんか？</summary><p>必ずしも変更する必要はありません。現在の募集方法を確認し、内容の改善や施策の追加を検討します。</p></details><details><summary>Web広告とチラシの両方が必要ですか？</summary><p>すべてを実施する必要はありません。採用したい人、地域、予算などに合わせて必要な手法を選びます。</p></details><details><summary>制作や運用だけを依頼できますか？</summary><p>はい。単独メニューでのご相談にも対応します。実施内容や費用は個別にご提案します。</p></details><details><summary>見積もりの前に何を準備すればよいですか？</summary><p>対象拠点、募集職種、現在の求人原稿、応募状況などがあると検討が進みます。揃っていない段階でもご相談いただけます。</p></details></div></div></section><section class="block about-profiles" id="about"><div class="container">
+<div class="about-company-header"><p class="tag">運営会社・支援体制</p><h2>人事ラボ（株式会社飛竜企画）とは</h2>
+<p class="about-company-intro">人事ラボは、1974年設立の株式会社飛竜企画が運営する、採用に関する情報・相談サイトです。</p></div>
+<div class="about-facts">
+<div class="about-fact"><p class="about-fact-value">1974<span>年</span></p><p class="about-fact-label">設立・50年以上の採用支援</p></div>
+<div class="about-fact"><p class="about-fact-value about-fact-indeed">Indeed</p><p class="about-fact-label">プラチナムパートナー</p></div>
+<div class="about-fact"><p class="about-fact-value">500<span>以上</span></p><p class="about-fact-label">全国の求人メディアを取り扱い</p></div>
+</div>
+<div class="about-services">
+<div class="about-service"><h3>採用ブランディング・クリエイティブ</h3><p>採用サイト・ホームページ制作、採用動画、社員インタビューなど</p></div>
+<div class="about-service"><h3>採用アウトソーシング</h3><p>応募者対応、ATS運用、スカウト送信、選考・内定者フォローなど</p></div>
 </div></div></section>
 <section class="contact bn-contact-intro" id="contact"><div class="container bn-contact-wrap"><div><p class="tag">採用についてのご相談</p><h2>この拠点の採用から、<br/>相談してみませんか。</h2><p class="pitch">複数の店舗・工場をお持ちの企業様も、特定の地域に絞った募集をご希望の企業様もご相談いただけます。</p><ul class="request-examples"><li>採用が難しい拠点を改善したい</li><li>地域に合った広告を検討したい</li><li>必要な施策と費用を相談したい</li></ul></div></div></section><div class="container bn-form-outer"><div class="bn-form-shell"><h3 class="bn-form-heading">エリア採用のご相談フォーム</h3><div class="bn-form-preview-notice"><p><strong>BowNowフォームの埋め込み待ち</strong></p><small>このファイルはデザイン共有用です。実際の送信フォームはBlueMonkeyへの公開時に設置します。</small></div></div></div>
 </main><footer class="footer"><div class="container footer-inner"><a class="brand" href="#top">人事ラボ</a><div class="footer-right"><span>株式会社飛竜企画</span><a href="#top">ページ上部に戻る ↑</a></div></div></footer><div class="bottom-cta"><a href="#contact">エリア採用について相談する →</a></div>
