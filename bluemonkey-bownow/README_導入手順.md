@@ -41,3 +41,5 @@ BlueMonkey HTMLソース編集 https://faq.bluemonkey.jp/hc/ja/articles/34912163
 BlueMonkey CSS追記 https://faq.bluemonkey.jp/hc/ja/articles/35224321067417
 BlueMonkey ユーザーディレクトリ https://faq.bluemonkey.jp/hc/ja/articles/35176796559001
 BlueMonkey 1ブロックに大量コンテンツを入れる際の問題 https://faq.bluemonkey.jp/hc/ja/articles/34786014277145
+## 人事ラボ・飛竜企画の紹介
+「09_faq.html」の後、「10_contact_intro.html」の前に `09a_about_hiryu.html` を挿入してください。CSSは `lp_page_head_css.html` に含まれています。2026年9月に整理した文章を再利用しています。
